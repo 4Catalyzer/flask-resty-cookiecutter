@@ -1,20 +1,8 @@
-import os
-
 from flask_resty import FixedSorting, GenericModelView
-from sqlalchemy import sql
 
-from . import app
 from . import auth
 from . import models
 from . import schemas
-
-# -----------------------------------------------------------------------------
-
-logger = app.logger
-
-NULL = sql.null()
-
-ENVIRONMENT = os.environ['QSI_ENVIRONMENT']
 
 # -----------------------------------------------------------------------------
 
