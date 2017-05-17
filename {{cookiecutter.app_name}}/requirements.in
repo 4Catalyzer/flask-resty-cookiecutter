@@ -1,0 +1,10 @@
+alembic
+click
+Flask
+Flask-RESTy[jwt]
+Flask-SQLAlchemy
+marshmallow
+newrelic
+psycopg2
+SQLAlchemy
+uWSGI

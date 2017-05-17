@@ -1,0 +1,5 @@
+{
+  "app_name": "widget_app",
+  "env_prefix": "{{cookiecutter.app_name|upper}}_",
+  "db_schema": "{{cookiecutter.app_name}}"
+}
