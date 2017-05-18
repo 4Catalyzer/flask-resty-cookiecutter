@@ -1,0 +1,15 @@
+*
+
+!alembic
+!{{cookiecutter.app_name}}
+!tests
+!alembic.ini
+!newrelic.ini
+!requirements-dev.txt
+!requirements.txt
+!setup.py
+!test.sh
+!uwsgi.ini
+
+*/*.py[cod]
+*/*/*.py[cod]
