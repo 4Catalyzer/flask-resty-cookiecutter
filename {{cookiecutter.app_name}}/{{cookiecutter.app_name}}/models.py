@@ -13,7 +13,7 @@ db.metadata.schema = app.config['DB_SCHEMA']
 
 # make sure to run
 # CREATE EXTENSION IF NOT EXISTS pgcrypto
-# CREATE SCHEMA IF NOT EXISTS conclave
+# CREATE SCHEMA IF NOT EXISTS {{cookiecutter.db_schema}}
 
 NULL = sql.null()
 
